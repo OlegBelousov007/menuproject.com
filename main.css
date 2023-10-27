@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(/css/img/bam.jpg);
+    background-size: cover;
+}
+nav{
+    height: 100px;
+    background: #000000;
+}
+ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+
+}
+li{
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+li:hover{
+    background: white;
+    color: #000000;
+}
+a{
+    color: white !important;
+    text-decoration: none;
+}
+div{
+    background: #000000;
+    height: 89.5vh;
+    width: 250px;
+}
+.bok{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
